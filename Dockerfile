@@ -10,11 +10,11 @@ RUN pip3 install -U pip
 
 RUN cd /
 
-RUN git clone https://github.com/mkasajim/telegram-chatbot-using-open-ai-python
+RUN git clone https://github.com/mkasajim/ai-assistant-using-open-ai-python
 
-RUN cd telegram-chatbot-using-open-ai-python
+RUN cd ai-assistant-using-open-ai-python
 
-WORKDIR /telegram-chatbot-using-open-ai-python
+WORKDIR /ai-assistant-using-open-ai-python
 
 RUN pip3 install -U -r requirements.txt
 
