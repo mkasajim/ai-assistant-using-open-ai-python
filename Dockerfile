@@ -10,7 +10,7 @@ RUN pip3 install -U pip
 
 RUN cd /
 
-RUN git clone https://github.com/mdkawsar-rachel/telegram-chatbot-using-open-ai-python
+RUN git clone https://github.com/mkasajim/telegram-chatbot-using-open-ai-python
 
 RUN cd telegram-chatbot-using-open-ai-python
 
